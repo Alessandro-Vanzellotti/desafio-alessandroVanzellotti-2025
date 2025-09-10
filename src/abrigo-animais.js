@@ -118,32 +118,4 @@ class AbrigoAnimais {
   }
 }
 
-console.log(
-  new AbrigoAnimais().encontraPessoas("RATO,BOLA", "RATO,NOVELO", "Rex,Fofo")
-);
-console.log(
-  new AbrigoAnimais().encontraPessoas("CAIXA,RATO", "RATO,BOLA", "Lulu")
-);
-console.log(
-  new AbrigoAnimais().encontraPessoas(
-    "CAIXA,RATO",
-    "RATO,BOLA",
-    "Zero,Mimi,Bebe,Loco,Fofo,Rex"
-  )
-);
-console.log(
-  new AbrigoAnimais().encontraPessoas(
-    "RATO,CAIXA,RATO",
-    "RATO,BOLA",
-    "Zero,Mimi,Bebe,Loco"
-  )
-);
-console.log(
-  new AbrigoAnimais().encontraPessoas(
-    "RATO,CAIXA,RATO",
-    "RATO,BOLA",
-    "Zero,Mimi,Bebe,Loco,Mimi"
-  )
-);
-
 export { AbrigoAnimais as AbrigoAnimais };
